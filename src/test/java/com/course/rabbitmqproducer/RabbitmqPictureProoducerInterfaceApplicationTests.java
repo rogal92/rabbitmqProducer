@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RabbitmqProducerApplicationTests {
+public class RabbitmqPictureProoducerInterfaceApplicationTests {
 
 	@Test
 	public void contextLoads() {

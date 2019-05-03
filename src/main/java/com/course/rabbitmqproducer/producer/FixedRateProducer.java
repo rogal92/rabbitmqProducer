@@ -14,7 +14,7 @@ public class FixedRateProducer {
     private RabbitTemplate rabbitTemplate;
 
     @Scheduled(fixedRate = 500)
-    public void sendMsg() {
+    public void sendMessage() {
         i++;
 //        System.out.println("Msg number: " + i);
         rabbitTemplate.convertAndSend("course.fixedrate", "Fixed rate: " + i);

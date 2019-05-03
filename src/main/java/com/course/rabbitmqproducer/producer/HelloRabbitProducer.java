@@ -10,7 +10,7 @@ public class HelloRabbitProducer {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    public void sendHello(String name) {
+    public void sendMessage(final String name) {
         rabbitTemplate.convertAndSend("course.hello", "Hello " + name);
     }
 }
