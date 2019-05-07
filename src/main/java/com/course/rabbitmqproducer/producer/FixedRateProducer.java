@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 public class FixedRateProducer {
 
     private static final Logger LOG = LoggerFactory.getLogger("FixedRateProducer");
-
     private int i;
 
     @Autowired
