@@ -4,7 +4,6 @@ import com.course.rabbitmqproducer.entity.Employee;
 import com.course.rabbitmqproducer.producer.*;
 import com.course.rabbitmqproducer.producer.picture.*;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import lombok.extern.java.Log;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +16,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.stream.IntStream;
 
-@Log
 @SpringBootApplication
 //@EnableScheduling
 public class RabbitmqProducerApplication implements CommandLineRunner {
